@@ -9,7 +9,7 @@
 <ul>
 <li>Search and list options</li>
 <li>Add authentication</li>
-<li>Add a movie api for another page</li>
+<li>Add a movie api for another page (usinng TMDb https://www.nuget.org/packages/TMDbLib/)</li>
 <li>Search api features</li>
 <li>Compare watch list with authorized users</li>
 </ul>
