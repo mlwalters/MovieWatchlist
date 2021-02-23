@@ -20,5 +20,21 @@ namespace MovieWatchList.Models
             Title = title;
             Genre = genre;
         }
+
+        public override string ToString()
+        {
+            return Title;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Movie @movie &&
+                   Id == @movie.Id;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Id);
+        }
     }
 }
