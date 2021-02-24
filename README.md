@@ -6,7 +6,7 @@
   <li>Add movie to watchlist</li>
   <li>View movie/index page</li>
 </ul>
-  
+
 <h4> Features to be added: </h4>
 <ul>
   <li>Add CRUD functionality</li>
