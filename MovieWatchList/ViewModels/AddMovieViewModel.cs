@@ -12,14 +12,19 @@ namespace MovieWatchList.ViewModels
         [Required(ErrorMessage = "Title is required")]
         public string Title { get; set; }
 
+        [Required(ErrorMessage = "Director is required")]
+        public string Director { get; set; }
+
         [Required(ErrorMessage = "Genre is required")]
         public string Genre { get; set; }
-
+    
+        public double Rating { get; set; }
+        public string MainActor{ get; set; }
         public AddMovieViewModel() { }
-        public AddMovieViewModel(string title, string genre) 
-        {
-            Title = title;
-            Genre = genre;
-        }
+        //public AddMovieViewModel(string title, string genre) 
+        //{
+        //    Title = title;
+        //    Genre = genre;
+        //}
     }
 }

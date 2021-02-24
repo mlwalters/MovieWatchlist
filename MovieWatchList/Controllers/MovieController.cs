@@ -39,7 +39,7 @@ namespace MovieWatchList.Controllers
         {
             if (ModelState.IsValid)
             {
-                Movie newMovie = new Movie(addNewMovie.Title, addNewMovie.Genre);
+                Movie newMovie = new Movie(addNewMovie.Title, addNewMovie.Director, addNewMovie.Genre, addNewMovie.Rating, addNewMovie.MainActor);
         
                 context.Movies.Add(newMovie);
                 context.SaveChanges();
