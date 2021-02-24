@@ -9,10 +9,25 @@
     </div>
     <div class="form-group">
         <label asp-for="Genre"></label>
-        <input asp-for="Genre" class="form-control"/>
+        <input asp-for="Genre" class="form-control" />
         <span asp-validation-for="Genre" class="text-warning font-italic"></span>
     </div>
     <div class="form-group">
+        <label asp-for="Director"></label>
+        <input asp-for="Director" class="form-control" />
+        <span asp-validation-for="Director" class="text-warning font-italic"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MainActor"></label>
+        <input asp-for="MainActor" class="form-control" />
+        <span asp-validation-for="MainActor" class="text-warning font-italic"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rating"></label>
+        <input asp-for="Rating" class="form-control" />
+        <span asp-validation-for="Rating" class="text-warning font-italic"></span>
+    </div>
+    <div class="form-group">
         <input type="submit" value="Add Event" class="btn btn-primary" />
-    </div>   
+    </div>
 </form>

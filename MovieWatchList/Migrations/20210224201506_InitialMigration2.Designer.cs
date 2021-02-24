@@ -9,8 +9,8 @@ using MovieWatchList.Data;
 namespace MovieWatchList.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    [Migration("20210223220310_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210224201506_InitialMigration2")]
+    partial class InitialMigration2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,8 +27,17 @@ namespace MovieWatchList.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Director")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Genre")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MainActor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Rating")
+                        .HasColumnType("float");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");

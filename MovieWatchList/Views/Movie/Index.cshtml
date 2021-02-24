@@ -22,6 +22,9 @@
                 <th>Title</th>
                 <th>Genre</th>
                 <th>Director</th>
+                <th>MainActor</th>
+                <th>Rating</th>
+                <th></th>
             </tr>
             @foreach (var movie in Model)
             {
@@ -30,7 +33,9 @@
                     <td>@movie.Title</td>
                     <td>@movie.Genre</td>
                     <td>@movie.Director</td>
-                    <td>@movie.</td>
+                    <td>@movie.MainActor</td>
+                    <td>@movie.Rating</td>
+                    <td>Update</td>
                 </tr>
             }
         </table>

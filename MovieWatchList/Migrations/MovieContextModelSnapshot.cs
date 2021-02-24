@@ -25,8 +25,17 @@ namespace MovieWatchList.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Director")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Genre")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MainActor")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Rating")
+                        .HasColumnType("float");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
