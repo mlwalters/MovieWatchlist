@@ -6,15 +6,15 @@
   <li>Add movie to watchlist</li>
   <li>View movie/index page</li>
 </ul>
-
 <h4> Features to be added: </h4>
 <ul>
   <li>Add CRUD functionality</li>
   <li>Add authentication</li>
   <li>Add a movie API for another page (usinng TMDb https://www.nuget.org/packages/TMDbLib/)</li>
   <li>Search API</li>
-  <li>Compare watch list with authorized users</li>
-  <li>Make the app accessible<li>
-  <li>Make the app responsive<li>
-  <li>Add dark mode option<li>
+    <li>Compare watch list with authorized users</li>
+    <li>Make the app accessible</li>
+    <li>Make the app responsive</li>
+    <li>Add dark mode option</li>
 </ul>
+
