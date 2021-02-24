@@ -1,6 +1,6 @@
 ﻿@model MovieWatchList.ViewModels.AddMovieViewModel;
 
-<h1>Add movie</h1>
+<h1>Add a movie</h1>
 <form asp-controller="Movie" asp-action="Add" method="post">
     <div class="form-group">
         <label asp-for="Title"></label>
@@ -18,7 +18,7 @@
         <span asp-validation-for="Director" class="text-warning font-italic"></span>
     </div>
     <div class="form-group">
-        <label asp-for="MainActor"></label>
+        <label asp-for="MainActor">Main Actor</label>
         <input asp-for="MainActor" class="form-control" />
         <span asp-validation-for="MainActor" class="text-warning font-italic"></span>
     </div>
@@ -28,6 +28,6 @@
         <span asp-validation-for="Rating" class="text-warning font-italic"></span>
     </div>
     <div class="form-group">
-        <input type="submit" value="Add Event" class="btn btn-primary" />
+        <input type="submit" value="Add movie" class="btn btn-primary" />
     </div>
 </form>
