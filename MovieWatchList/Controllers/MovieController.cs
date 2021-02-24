@@ -44,7 +44,7 @@ namespace MovieWatchList.Controllers
                 context.Movies.Add(newMovie);
                 context.SaveChanges();
 
-                return Redirect("/Index");
+                return Redirect("/Movie/Index");
             }
             return View(addNewMovie);
         }

@@ -15,8 +15,6 @@ namespace MovieWatchList.ViewModels
         [Required(ErrorMessage = "Genre is required")]
         public string Genre { get; set; }
 
- 
-
         public AddMovieViewModel() { }
         public AddMovieViewModel(string title, string genre) 
         {
