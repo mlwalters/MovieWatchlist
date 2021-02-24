@@ -1,7 +1,7 @@
 # Movie Watchlist: A full-stack web application
-<h2> A web app with authentication, SQLServer database, CRUD functionality, and built-in API to browse movies to add to watchlist.</h2>
-<br>
-<h3>Current features/ in-progress:</h3>
+<h3> A web app with authentication, SQLServer database, CRUD functionality, and built-in API to browse movies to add to watchlist.</h2>
+
+<h4>Current features/ in-progress:</h4>
 <ul>
   <li>Add movie to watchlist</li>
   <li>View movie/index page</li>
@@ -17,4 +17,5 @@
     <li>Make the app responsive</li>
     <li>Add dark mode option</li>
 </ul>
+
 

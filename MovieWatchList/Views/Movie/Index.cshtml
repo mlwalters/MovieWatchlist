@@ -35,7 +35,7 @@
                     <td>@movie.Director</td>
                     <td>@movie.MainActor</td>
                     <td>@movie.Rating</td>
-                    <td>Update</td>
+                    <td><a asp-controller="Movie" asp-action="Edit" asp-route-id="@movie.Id">Update</a></td>
                 </tr>
             }
         </table>
