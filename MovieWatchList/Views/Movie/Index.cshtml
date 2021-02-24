@@ -1,5 +1,36 @@
-﻿@*@model MovieWatchList.ViewModels.AddMovieViewModel;*@
+﻿@using MovieWatchList.Models;
 
-<h1>This is the Movie Index view</h1>
+@model List<Movie>
 
-<a class="nav-link text-dark" asp-area="" asp-controller="Movie" asp-action="Add">Add movie</a>
+<h1>Movies to watch:</h1>
+
+<div>
+    <a class="btn btn-primary" asp-area="" asp-controller="Movie" asp-action="Add">Add a movie</a>
+</div>
+
+<div>
+
+    @if (Model.Count == 0)
+    {
+        <h3>No movies yet!</h3>
+    }
+    else
+    {
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Genre</th>
+            </tr>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Id</td>
+                    <td>@movie.Title</td>
+                    <td>@movie.Genre</td>
+
+                </tr>
+            }
+        </table>
+    }
+</div>
