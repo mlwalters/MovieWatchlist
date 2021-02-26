@@ -4,6 +4,7 @@
 <h4>Current features/ in-progress:</h4>
 <ul>
   <li>Add movie to watchlist</li>
+  <li>Update movie details</li>
   <li>View movie/index page</li>
 </ul>
 <h4> Features to be added: </h4>
@@ -12,7 +13,8 @@
   <li>Add authentication</li>
   <li>Add a movie API for another page (usinng TMDb https://www.nuget.org/packages/TMDbLib/)</li>
   <li>Search API</li>
-    <li>Compare watch list with authorized users</li>
+  <li>Add more lists (watch with SO, friends, kids)</li>
+    <li>Share watchlists with authorized users</li>
     <li>Make the app accessible</li>
     <li>Make the app responsive</li>
     <li>Add dark mode option</li>
